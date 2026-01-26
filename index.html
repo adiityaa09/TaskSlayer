@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Slayer | RPG Productivity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="game-container">
+
+        <header>
+            <h1>Task Slayer ⚔️</h1>
+            <p>Complete quests to defeat the monsters!</p>
+        </header>
+
+        <div id="arena">
+
+            <div class="hud">
+                <div class="score-box">Kills: <span id="kill-count">0</span></div>
+                <div class="boss-hud">
+                    <div class="boss-name" id="boss-name">Dark Dragon</div>
+                    <div class="hp-bar-container">
+                        <div class="hp-fill" id="hp-fill"></div>
+                        <span class="hp-text"><span id="current-hp">100</span> / <span id="max-hp">100</span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="monster">🐉</div>
+
+        </div>
+
+        <div id="quest-board">
+            <div class="input-group">
+                <input type="text" id="quest-input" placeholder="Enter new quest (e.g. 'Read Chapter 3')..."
+                    autocomplete="off">
+                <button id="add-btn">Add Quest</button>
+            </div>
+
+            <ul id="quest-list">
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
