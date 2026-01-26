@@ -21,10 +21,10 @@ let monster = {
 
 const MONSTERS = [
     { name: "Dark Dragon", emoji: "🐉", hp: 100 },
-    { name: "Goblin Thief", emoji: "👺", hp: 40 },
     { name: "Slime King", emoji: "🦠", hp: 60 },
     { name: "Stone Golem", emoji: "🗿", hp: 150 },
-    { name: "Ghost of Procrastination", emoji: "👻", hp: 80 }
+    { name: "Ghost of Procrastination", emoji: "👻", hp: 80 },
+    { name: "Vivan The Devil (Final Boss)", emoji: "👺", hp: 200 },
 ];
 
 initGame();
